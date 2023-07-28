@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>check box</title>
+</head>
+<body>
+<div>
+	<input type="checkbox" id="checkbox" name="" class="checkbox">
+	<label for="checkbox" class="label">checkbox</label>
+</div>
+<style type="text/css">
+	.label{
+		font-size: 20px;
+		position: relative;
+	}
+
+	.checkbox{
+		position: absolute;
+		left: -999px;
+	}
+
+	.label:before{
+		content : "";
+		width: 20px;
+		height: 20px;
+		background: #FFF;
+		border:2px solid #ddd;
+		position: absolute;
+		border-radius: 5px;
+		left: -10px;
+		display: inline-block;
+	}
+
+	.label:after{
+		
+		background: transparent;
+		color: #ffbf34;
+		content : "\2713"; 
+		position: absolute;
+		border-radius: 5px;
+		left: -5px;
+		display: inline-block;
+		transform:scale(0);
+	}
+	.checkbox:checked + .label:after{
+		transform: scale(1);
+	}
+</style>
+</body>
+</html>

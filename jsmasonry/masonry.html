@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Masonry</title>
+    </head>
+    <style>
+        .reviewCard {
+            background: #FFF;
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 5px;
+            transition: all 0.3s ease 0s;
+            border: 1px solid #f4f4f4;
+            margin-bottom: 30px;
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        .reviewCard .img {
+            color: #fff;
+            font-size: 50px;
+            width: 120px;
+            height: 120px;
+            line-height: 120px;
+            margin: 0 auto 40px;
+            display: block;
+            position: relative;
+        }
+
+        .reviewCard .img:before {
+            content: "";
+            background: linear-gradient(to right, #EE4758 49%, #DA4155 50%);
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 0 5px #fff inset;
+            border: 5px solid #DA4155;
+            border-right: none;
+            border-top: none;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all 0.5s ease 0s;
+        }
+
+        .reviewCard .img img {
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+
+    <body>
+        <div class="singleWrap masonry">
+            <div class="reviewCard">
+                <div class="img">
+                    <img src="https://lh3.ggpht.com/-xh9Z6jRdHEo/AAAAAAAAAAI/AAAAAAAAAAA/dah1ynADf8o/s128-c0x00000000-cc-rp-mo/photo.jpg"
+                        alt="Francesco Rombola">
+                </div>
+
+                <h3 class="authorName">Francesco Rombola</h3>
+                <span class="reviewTime">4 months ago via Google</span>
+                <div class="revbuck-rattings">
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="reviewText">An absolutely amazing experience.Authentic Italian food fu</p>
+            </div>
+        </div>
+    </body>
+
+</html>

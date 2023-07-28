@@ -1,0 +1,137 @@
+@media all and (min-width: 991px){
+	.banner-content hr {
+	  margin: 8px 190px;
+	}
+}
+
+@media all and (max-width: 991px){
+	.menu {
+		display: none;
+	}
+	.menu ul{
+		justify-content: start;
+		flex-direction: column;
+	}
+
+	.menu ul li {
+		margin-top: 1rem;
+		}
+
+	.logo{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}	
+
+	 
+
+	.logo a i {
+		color: #FFF;
+		font-size: 2.5rem;
+		border: 1px solid #FFF;
+		border-radius: 3px;
+		padding: 5px 10px;
+	}
+
+	.logo a i:hover{
+		background: #02baab;
+	}
+
+	.menu-icon{
+		display: block;
+	}
+
+	/******** banner content **********/
+	.banner-content {
+		margin: 6rem 0;
+	}
+
+	.banner-content h1{
+		font-size: 4.2rem;
+	}
+
+	.banner-content hr {
+		margin: 9px 125px;
+		 
+	}
+
+	.banner-text {
+		padding-bottom: 8rem;
+	}
+
+	.banner-content h2{
+		font-size: 1.8rem;
+
+	}
+
+	/****single button****/
+	.single-button{
+		left: 37%;
+	}
+}
+
+
+@media all and (max-width: 767px){
+
+	/***** Banner content****/
+	.banner-content {
+		margin: 3rem 0;
+	}
+
+	.banner-content h1{
+		font-size: 3.7rem;
+	}
+
+	.banner-text {
+		padding-bottom: 5rem;
+	}
+
+	.banner-content hr {
+		margin: 6px 42px; 
+	}
+
+	/****single button****/
+	.single-button{
+		left: 32%;
+	}
+
+	/****works responsive*****/
+	.skills-workflow {
+		margin-bottom: 3rem;
+	}
+
+	.portfolio-single-item {
+		margin-bottom: 4rem;
+	}
+} 
+
+
+@media all and (max-width: 575px){
+
+	.banner-content {
+		margin: 1.7rem 0;
+	}
+	.banner-content h1{
+		font-size: 2.5rem;
+	}
+
+	.banner-content h2 {
+		font-size: 1.3rem;
+	}
+
+	.banner-content hr {
+		display: none;
+	}
+
+	/****single button****/
+	.single-button{
+		left: 25%;
+	}
+
+	.btn-sty-1{
+		width: 20rem;
+	}
+}
+
+
+ 

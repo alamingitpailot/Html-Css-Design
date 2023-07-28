@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Masonry</title>
+    </head>
+    <style>
+        .grid {
+            width: 100%;
+            position: relative;
+        }
+
+        .content {
+            position: absolute;
+            overflow: hidden;
+        }
+    </style>
+
+    <body>
+        <div class="grid">
+            <div class="content flow">
+                <h2 class="title">This is really cool-1</h2>
+                <p>Lorem ipsum dolor, <a href="#">sit amet consectetur</a> adipisicing elit. Aliquid sapiente
+                    perferendis nulla sed magni
+                    soluta facilis necessitatibus cumque repellendus optio laborum.</p>
+
+            </div>
+            <div class="content flow">
+                <h2 class="title">This is really cool-2</h2>
+                <p>Lorem ipsum dolor, <a href="#">sit amet consectetur</a> adipisicing elit. Aliquid sapiente
+                    perferendis nulla sed consequuntur eveniet. Itaque veritatis qui labore quia odio nihil, magni
+                    soluta facilis necessitatibus cumque repellendus optio laborum.</p>
+            </div>
+            <div class="content flow">
+                <h2 class="title">This is really cool-3</h2>
+                <p>Lorem ipsum dolor, <a href="#">sit amet consectetur</a> adipisicing elit. Aliquid sapiente
+                    perferendis nulla sed consequuntur eveniet. Itaque veritatis qui labore quia odio nihil, magni
+                    soluta facilis necessitatibus cumque repellendus optio laborum.</p>
+            </div>
+            <div class="content flow">
+                <h2 class="title">This is really cool-4</h2>
+            </div>
+            <div class="content flow">
+                <h2 class="title">This is really cool-5</h2>
+                <img src="https://unsplash.it/500/201" alt="">
+                <p>Lorem ipsum dolor, <a href="#">sit amet consectetur</a> adipisicing elit. Aliquid sapiente
+                    perferendis nulla sed consequuntur eveniet. Itaque veritatis qui labore quia odio nihil, magni
+                    soluta facilis necessitatibus cumque repellendus optio laborum.</p>
+            </div>
+            <div class="content flow">
+                <h2 class="title">This is really cool-6</h2>
+                <p>Lorem ipsum dolor, <a href="#">sit amet consectetur</a> adipisicing elit. Aliquid sapiente
+                    perferendis nulla sed consequuntur eveniet. Itaque veritatis qui labore quia odio nihil, magni
+                    soluta facilis necessitatibus cumque repellendus optio laborum.</p>
+            </div>
+            <div class="content flow">
+                <h2 class="title">This is really cool-7</h2>
+                <p>Lorem ipsum dolor, <a href="#">sit amet consectetur</a> adipisicing elit. Aliquid sapiente
+                    perferendis nulla sed consequuntur eveniet. Itaque veritatis qui labore quia odio nihil, magni
+                    soluta facilis necessitatibus cumque repellendus optio laborum.</p>
+            </div>
+            <div class="content flow">
+                <h2 class="title">This is really cool-8</h2>
+                <p>Lorem ipsum dolor, <a href="#">sit amet consectetur</a> adipisicing elit. Aliquid sapiente
+                    perferendis nulla sed consequuntur eveniet. Itaque veritatis qui labore quia odio nihil, magni
+                    soluta facilis necessitatibus cumque repellendus optio laborum.</p>
+            </div>
+            <div class="content flow">
+                <h2 class="title">This is really cool-9</h2>
+                <p>Lorem ipsum dolor, <a href="#">sit amet consectetur</a> adipisicing elit. Aliquid sapiente
+                    perferendis nulla sed consequuntur eveniet. Itaque veritatis qui labore quia odio nihil, magni
+                    soluta facilis necessitatibus cumque repellendus optio laborum.</p>
+            </div>
+        </div>
+        <script src="masonry.min.js"></script>
+
+        <script>
+            var exampleSize = new MiniMasonry({
+                container: '.grid',
+                gutter: 40,
+                minify: false,
+                basewidth: 350,
+                surroundingGutter: true,
+                ultimateGutter: 4
+            });
+        </script>
+    </body>
+
+</html>

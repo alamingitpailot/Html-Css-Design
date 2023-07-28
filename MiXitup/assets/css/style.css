@@ -1,0 +1,50 @@
+.portfolio {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.item {
+	flex: 0 0 calc(33.33% - 20px);  
+	background: #ddd;
+	margin: 10px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.filter ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding:20px 0;
+
+}
+
+.filter ul li {
+	background: tomato;
+	padding: ;
+	padding: 10px 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #FFF;
+	font-family: Tohoma;
+	margin:0 10px;
+	cursor: pointer;
+}
+
+.design{
+	background: #2ecc71;
+}
+.dev{
+	background: #3498db;
+}
+.graphic{
+	background: #9b59b6;
+}
+.apps{
+	background: ##16a085;
+}

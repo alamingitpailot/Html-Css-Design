@@ -1,0 +1,64 @@
+.grid {
+
+    margin: 0 auto;
+    display: column;
+    columns: 4;
+    gap: 20;
+}
+
+.grid>* {
+    break-inside: avoid;
+    margin-bottom: 20;
+}
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 3rem 0;
+    text-align: center;
+    font-size: clamp(2rem, 1rem + 3vw, 6rem);
+    font-weight: 300;
+    line-height: 1;
+    opacity: 0.2;
+}
+
+.flow>*+* {
+    margin-top: var(--flow-space, var(--spacer));
+}
+
+body {
+    font-family: var(--ff-primary);
+    min-height: 100vh;
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--clr-body);
+    background: var(--clr-bg);
+    padding-bottom: 13rem;
+}
+
+a {
+    color: var(--clr-primary);
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    padding: 2em;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+    background: white;
+}

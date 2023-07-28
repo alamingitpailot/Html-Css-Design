@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.theme.min.css">
+<style>
+.ui-corner-all {
+  border-radius: 0px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  border-radius: 50%;
+  background: #8dc740;
+  border:none;
+}
+
+.ui-widget-header {
+  background: #8dc740;
+  border:none !important;
+}
+
+.ui-widget.ui-widget-content {
+  border: none;
+  background: #616161;
+  height: 9px;
+}
+.slider-range{
+  position: relative;
+}
+</style>
+</head>
+<body>
+
+ <p>
+  <label for="amount">Price range:</label>
+  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  
+</p>
+ 
+<div id="slider-range">
+  
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+
+<script>
+ $( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  } );
+</script>
+
+</body>
+</html>

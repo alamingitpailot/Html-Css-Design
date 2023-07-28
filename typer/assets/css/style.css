@@ -1,0 +1,94 @@
+/* Common css hear */
+* {
+   margin: 0rem;
+   padding: 0rem;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* animated progress bar css bar */
+svg.radial-progress {
+   height: auto;
+   max-width: 250px;
+   padding: 1em;
+   transform: rotate(-90deg);
+   width: 100%;
+}
+
+svg.radial-progress circle {
+   fill: rgba(0, 0, 0, 0);
+   stroke: #fff;
+   stroke-dashoffset: 219.91148575129;
+   stroke-width: 3;
+}
+
+svg.radial-progress circle.incomplete {
+   opacity: 0.45;
+   stroke-width: 1px;
+   stroke: green;
+}
+
+svg.radial-progress circle.complete {
+   stroke-dasharray: 219.91148575129;
+}
+
+svg.radial-progress text {
+   fill: #fff;
+   text-anchor: middle;
+}
+
+svg.radial-progress circle {
+   stroke: green;
+}
+svg.radial-progress text {
+   stroke: #292c26;
+}
+
+svg.html_css circle {
+   stroke: #9b59b6;
+}
+
+svg.javascript circle {
+   stroke: #f1c40f;
+}
+
+svg.bootstrap circle {
+   stroke: #2ecc71;
+}
+
+svg.wordpress circle {
+   stroke: #f1c40f;
+}
+
+/* custome css hear */
+.header h2 {
+   font-size: 3rem;
+   text-transform: uppercase;
+   text-align: center;
+   margin: 5rem 0rem;
+   letter-spacing: 4;
+   font-weight: 300;
+}
+
+.progresh {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.progresh-item h2 {
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 2rem;
+}

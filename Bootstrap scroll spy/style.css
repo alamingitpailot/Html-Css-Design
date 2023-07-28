@@ -1,0 +1,83 @@
+body{
+	position: relative;
+}
+
+.section {
+	background: black;
+	color: #FFF;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#about{
+	background: #2ecc71;
+}
+
+#contact{
+	background: #3498db;
+}
+
+#news{
+	background: #9b59b6;
+}
+
+#blog{
+	background: #e74c3c;
+}
+
+.menuarea {
+	padding: 1rem 0;
+	background: transparent;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	transition: 1s;
+}
+
+.scrollbtn {
+	position: fixed;
+	bottom: 0px;
+	right: 20px;
+	padding: 9px 17px;
+	background: green;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 20px 20px 0 0;
+	display: inline-block;
+	display: none;
+}
+
+.logo h2{
+	color:#FFF;
+}
+.menu ul li a{
+	color:#FFF;
+}
+
+.menu ul li a.active{
+	color:#fff;
+	background:#3498db !important; 
+}
+
+.fixedHeader{
+	position: fixed;
+	background: #fff;
+
+}
+
+.fixedHeader .menu .logo h2{
+	color:#000;
+}
+
+.fixedHeader .menu ul li a{
+	color:#000;
+}
+
+.fixedHeader .logo h2{
+	color:#000;
+}

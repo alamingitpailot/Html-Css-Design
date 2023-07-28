@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        .reviewCard {
+            padding: 35px 20px 35px 100px;
+            position: relative;
+            transition: all 0.33s ease 0s;
+        }
+
+        .reviewCard .img {
+            line-height: 40px;
+            font-size: 30px;
+            color: #ff5157;
+            text-align: center;
+            border: 2px solid #16706e;
+            position: absolute;
+            top: 55px;
+            left: 12px;
+            transition: all 0.3s ease 0s;
+            padding: 3px;
+        }
+
+        .reviewCard .img:before,
+        .reviewCard .img:after {
+            content: "";
+            height: 2px;
+            background: #16706e;
+            position: absolute;
+            top: -20px;
+            left: 10px;
+            right: 10px;
+            transition: all 0.3s ease 0s;
+        }
+
+        .reviewCard .img img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .elementor img {
+            height: auto;
+            max-width: 100%;
+            border: none;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .reviewCard .img:after {
+            top: auto;
+            bottom: -20px;
+            left: 10px;
+            right: 10px;
+        }
+
+        .reviewCard .authorName {
+            display: block;
+            font-size: 17px;
+            font-weight: 700;
+            color: #474747;
+            text-transform: uppercase;
+            margin: 0 0 0px 0;
+            position: relative;
+        }
+
+        .reviewCard .reviewTime {
+            margin-bottom: 1px;
+        }
+
+        .elementor-102 .elementor-element.elementor-element-b16e870 .reviewbucket-review-more {
+            color: #999;
+        }
+
+        .reviewCard .description {
+            font-size: 13px;
+            color: #807d7d;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            margin-top: 12px;
+        }
+
+        .reviewCard:hover {
+            box-shadow: 0 0 8px 0 rgba(119, 94, 28, 0.3);
+        }
+
+        .reviewCard:hover .img:before {
+            top: -25px;
+            transform: rotate(90deg);
+        }
+
+        .reviewCard:hover .img:after {
+            transform: rotate(-90deg);
+            bottom: -25px;
+        }
+    </style>
+
+    <body>
+        <div class="singleWrap gird4Single">
+            <div class="reviewCard">
+                <div class="img">
+                    <img src="https://lh3.ggpht.com/-xh9Z6jRdHEo/AAAAAAAAAAI/AAAAAAAAAAA/dah1ynADf8o/s128-c0x00000000-cc-rp-mo/photo.jpg"
+                        alt="Francesco Rombola">
+                </div>
+                <a href="#" class="authorName">Francesco Rombola</a>
+                <p class="reviewTime">4 months ago via Google </p>
+
+                <p class="description reviewbucket-review-more">An absolutely amazing experience.
+                    Authentic Italian food fu</span></p>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<div class="selectdiv ">
+  <label>
+      <select>
+          <option selected> Select Box </option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Last long option</option>
+      </select>
+  </label>
+</div>
+
+<style type="text/css">
+.selectdiv {
+  position: relative;
+}
+
+.selectdiv::after {
+	content: '\f078';
+	font: normal normal normal 17px/1 FontAwesome;
+	color: #0ebeff;
+	left: 103px;
+	top: 6px;
+	position: absolute;
+	pointer-events: none;
+	width: 100%;
+}
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+	appearance: none;
+	display: block;
+	font-size: 16px;
+	line-height: 1.75;
+	color: #333;
+	background-color: #ffffff;
+	background-image: none;
+	border: none;
+}
+</style>

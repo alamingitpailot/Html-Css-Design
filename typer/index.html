@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- bootstrap css hear -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- jQuery css hear -->
+    
+   <title>Typer.js</title>
+</head>
+<body>
+      <h1 id="example"></h1>
+
+    
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/typer.min.js"></script>
+
+   <script type="text/javascript">
+         $("#example").typer({
+            strings: [
+             "A great free jQuery plugin",
+             "Animates typing strings",
+             "Hosted In jQueryScript"
+           ],
+           typeSpeed: 100,
+           backspaceSpeed: 60,
+           backspaceDelay: 800,
+           repeatDelay: 1000,
+           repeat: true,
+           autoStart: true,
+           startDelay: 100,
+         });
+   </script>
+
+</body>
+</html>

@@ -1,0 +1,629 @@
+
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	overflow-x: hidden;
+	margin: 0;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	position: relative;
+	 
+	 
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:focus {
+	outline: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+button:hover:focus {
+	outline: none;
+}
+
+h1{
+	font-size: 20px;
+	font-size: 2rem;
+	color:#FFF;
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	font-size: 18px;
+	font-size: 1.8rem;
+	color:#FFF;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	 
+}
+
+button:focus {
+	outline: none;
+	
+}
+
+   /*************************************************/
+  /********** 1 Start header section ***************/
+ /*************************************************/
+
+.header-section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	border-bottom: 1px solid #fff;
+}
+
+.menuarea{
+	position: relative;
+}
+
+.logo{}
+
+.logo a{}
+
+.menu ul{}
+
+.menu ul li{}
+
+.menu ul li a {
+	padding: 40px 15px;
+	padding: 4rem 1.5rem;
+	border-bottom: 3px solid transparent;
+	font-size: 17px;
+	font-size: 1.7rem;
+	color: #fff;
+	font-weight: 300;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.menu ul li a:hover{
+	border-color: #fff;
+
+}
+
+.search-bar {}
+
+.search {
+	position: relative;
+	padding: 30px 0;
+	padding:3rem 0;
+
+}
+
+.search input[type="search"] {
+	width: 100%;
+	border: none;
+	background: #fff;
+	padding: 10px 20px;
+	padding: 1rem 2rem;
+	border-radius: 164px;
+	color: #777777;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+.search button {
+	position: absolute;
+	right: 5px;
+	background: transparent;
+	border: none;
+	font-size: 16px;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 48px;
+	color: #777777;
+}
+
+   /*************************************************/
+  /********** 2 Start banner section ***************/
+ /*************************************************/
+
+.banner-section{
+	background: url('../../assets/img/banner.jpg')no-repeat scroll 0 0 /cover;
+	position: relative;
+
+}
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 250px;
+	padding-bottom: 200px;
+}
+
+.content h1 {
+	font-size: 40px;
+	font-size: 4rem;
+	font-weight: 400;
+}
+
+.banner-button {
+	text-align: center;
+}
+
+.banner-button a {
+	padding: 20px 70px;
+	padding: 2rem 7rem;
+	background: #8824cd;
+	display: inline-block;
+	margin: 20px;
+	margin: 2rem;
+	color: #fff;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 700;
+	border-radius: 44px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.banner-button a:hover{
+	background: #2e3b4e;
+}
+
+.content p{
+	text-align: center;
+}
+
+
+   /*************************************************/
+  /********** 3 Feature section css ****************/
+ /*************************************************/
+
+.feature-section {
+	background: #2e3b4e;
+	padding: 50px 0;
+	padding: 5rem 0;
+}
+
+.feature-content {}
+
+.feature-content h1 {
+	color: #fff;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 10px 0;
+	margin: 1rem 0;
+}
+
+.feature-content p {
+	font-size: 16px;
+	font-size: 1.6rem;
+	text-align: justify;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+	font-weight: 400;
+}
+
+
+   /*************************************************/
+  /********** 4 pink section css *******************/
+ /*************************************************/
+
+ .pink-section {
+	background: url('../../assets/img/bg.jpg')no-repeat scroll 100% 100% / cover;
+	position: relative;
+}
+
+.pink-section:before {
+	content: " ";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(253, 10, 10, 0.38);
+}
+
+ .pink-content {
+	padding: 70px 0;
+	padding: 7rem 0;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+}
+
+ .pink-content h1 {
+	font-size: 30px;
+	font-size: 3rem;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+	font-weight: 300;
+}
+
+.pink-content p {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+.pink-button {
+	margin-top: 20px;
+	margin-top:2rem;
+}
+
+.pink-button a {
+	padding: 15px 90px;
+	padding: 1.5rem 9rem;
+	background: #fff;
+	color: #ca586d;
+	border-radius: 200px;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 500;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.pink-button a:hover{
+	background: #2e3b4e;
+	color:#fff;
+}
+
+.style-image {
+	-webkit-transform: translateY(-337px);
+	        transform: translateY(-337px);
+}
+
+
+   /*************************************************/
+  /********** 5 About section css ******************/
+ /*************************************************/
+
+
+.about-section .row {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	            -ms-grid-row-align: center;
+	        align-items: center;
+}
+
+.image-area {
+	width: 100%;
+	height: 100%;
+}
+
+.image-area img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+
+.about-content {
+	background: #fff;
+}
+
+.about-content h1 {
+	color: #5c6a79;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.about-content p {
+	color: #5c6a79;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.about-content p:last-child {
+	margin-top: 20px;
+	margin-top: 2rem;
+	margin-bottom: 10px;
+	margin-bottom: 1rem;
+}
+
+
+
+
+   /*************************************************/
+  /********** 6 About section css ******************/
+ /*************************************************/
+
+
+.image-stretch-section{
+	background: url('../../assets/img/fixedbg.jpg')no-repeat scroll 0 0/cover;
+	position: relative;
+
+}
+
+.image-stretch-section:before{
+	content: " ";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(0, 0, 0, .5);
+}
+
+.image-stretch-area {
+	background: rgba(83, 38, 99, 0.6);
+	z-index: 10;
+	position: relative;
+}
+
+.stretch-content {
+	text-align: center;
+	width: 90%;
+	margin: 90px auto;
+	margin: 9rem auto;
+}
+
+.stretch-content h1 {
+	font-size: 30px;
+	font-size: 3rem;
+	font-weight: 400;
+	color: #ffff;
+}
+
+.stretch-content p {
+	color: #a87bb7;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 400;
+	margin: 20px 0;
+	margin: 2rem 0;
+}
+
+.stretch-button{}
+
+.stretch-button a {
+	padding: 15px 80px;
+	padding: 1.5rem 8rem;
+	background: #653975;
+	border-radius: 200px;
+	color: #fff;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+
+.stretch-button a:hover{
+	background: #b94256;
+	color:#fff;
+}
+
+
+   /*************************************************/
+  /********** 7 Feature article css ****************/
+ /*************************************************/
+
+.feature-article-section{
+	background: url('../../assets/img/bg2.jpg')no-repeat scroll 0 0/cover;
+	position: relative;
+}
+
+.feature-article-section:before {
+	content: " ";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.51);
+	bottom: 0px;
+}
+
+.feature-article-content {
+	margin-top: 300px;
+	margin-top: 30rem;
+	margin-bottom: 70px;
+	margin-bottom: 7rem;
+	position: relative;
+	z-index: 10;
+}
+
+.feature-article-content h1 {
+	font-size: 30px;
+	font-size: 3rem;
+	margin: 20px 0;
+	margin: 2rem 0;
+	font-weight: 400;
+}
+
+.feature-article-button a {
+	padding: 15px 70px;
+	padding: 1.5rem 7rem;
+	border: 1px solid #ffffff;
+	border-radius: 200px;
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #fff;
+	font-weight: 600;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.feature-article-author a {
+	color: #fff;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 600;
+	margin-left: 20px;
+	margin-left: 2rem;
+}
+
+.feature-article-author a:hover{
+	color:#b94256;
+}
+
+   /*************************************************/
+  /************* 8 about two css *******************/
+ /*************************************************/
+
+.about-two-section {
+	position: relative;
+}
+
+.about-two-content {
+	
+}
+
+.about-two-content h1 {
+	color: #3a4d60;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.about-two-content p {
+	font-size: 20px;
+	font-size: 2rem;
+	color: #3a4d60;
+	font-weight: 400;
+}
+
+.about-two-content:last-child p {
+	 
+}
+
+ 
+.about-two-img {
+	width: 100%;
+	height: 100%;
+}
+
+.about-two-img img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+
+
+
+.about-two-content p {
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #3a4d60;
+	font-weight: 400;
+}
+
+.about-two-content:last-child p {
+	margin-top: 20px;
+	margin-top: 2rem;
+}
+
+.about-two-section .row {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	            -ms-grid-row-align: center;
+	        align-items: center;
+}
+
+   /*************************************************/
+  /************* 9 Contact css *********************/
+ /*************************************************/
+
+.contact-section{
+	background: #e7526b;
+}
+
+.contact-content {
+	padding-top: 40px;
+	padding-top: 4rem;
+	padding-bottom: 70px;
+	padding-bottom: 7rem;
+}
+
+.contact-content h1 {
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+
+.contact-content p {
+	font-size: 15px;
+	font-weight: 400;
+	width: 45%;
+	margin-bottom: 30px;
+	margin-bottom: 3rem;
+
+}
+
+.contact-content a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	border-bottom: 1px solid #fff;
+}
+
+
+   /*************************************************/
+  /************* 10 Contact css *********************/
+ /*************************************************/
+.footer-section{
+	background: #2e3b4e;
+}
+
+.footer-content{
+	padding-top: 30px;
+	padding-top:3rem;
+	padding-bottom: 70px;
+	padding-bottom: 7rem;
+}
+
+.footer-content h1 {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.menu-icon{
+	display: none;
+}
+
+
+.menu{
+	display: block;
+}
+
+.contact-content a:hover{
+	color:#383534;
+}
+
+
+.fixedMenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #AFDBF5;
+}

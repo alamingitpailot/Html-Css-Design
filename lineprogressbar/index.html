@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta property="og:title" content="">
+	<meta property="og:type" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+     
+    <title>MixItUp</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/jquery.lineProgressbar.css">
+	<style type="text/css">
+
+	.progressbar {
+		width: 100%;
+		margin-top: 33px;
+		margin-bottom: 0px; 
+		position: relative;
+	}
+	.percentCount {
+		float: left;
+		position: absolute;
+		top: -32px;
+		left: 0;
+	}
+	
+	</style>
+</head>
+<body>
+
+ <div id="progress" data-init="true">
+ 	
+ </div>
+
+<!-- JS FILES -->
+  	<script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.lineProgressbar.js"></script>
+    <script src="assets/js/jquery-waypoints.js"></script>
+
+<script>
+        $('#progress').LineProgressbar({
+            percentage: 50,
+            fillBackgroundColor: '#1abc9c',
+        });
+
+       
+    </script>
+
+	
+
+  
+</body>
+</html>
